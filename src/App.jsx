@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react';
+
 export default function App() {
   const pages = [
     { name: "Home", id: "home", keywords: "Medical Resource Foundation Dayton Ohio disability support" },
@@ -279,6 +281,7 @@ export default function App() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </main>
   );
 }
